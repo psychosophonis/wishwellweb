@@ -4,7 +4,7 @@ This example strips out all truffle overhead and simplifies interaction with the
 I have used jquery to allow a readable $document.ready function but stripped out any remaining jquery beyond that.
 
 For this example to work you need to be using the Metamask chrome extension on the Rinkeby test network.
-Go to [https://chrome.google.com/webstore/category/extensions](the chrome store) and search for metamask.
+Go to (https://chrome.google.com/webstore/category/extensions)[the chrome store] and search for metamask.
 Follow the instructions to install metamask and set up a wallet and account.
 
 Now Metamask will handle all your rinkeby accounts (set up a new account for this) and your web3 instance.
