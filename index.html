@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Wishing Well</title>
+  <p> This is a completely stripped back interface to the Bouncing Wishing Well Contract.</p>
+  <p> It requires a metamask account running in the chrome browser using a local web server.</p>
+  <p> If you have npm install try 'install http-server' for a bare bones server</p>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src='web3.min.js'>
+  //'https://raw.githubusercontent.com/elementrem/web3.js/master/dist/web3.min.js'
+  </script></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src='app.js'></script>
+ 
+
+  
+</head>
+<body>
+  <h1>Wishing Well</h1>
+
+  <p>
+
+  Wallet Address: <input type="text" id="walletAdd" value="Default Address"><br>
+  Amount to Deposit : <input type="text" id="amnt" value="0.06"><br>
+  <input type="button" onClick="deposit()" value="Deposit"><br><br>
+  <p><span id='amountDeposited'></span></p>
+
+
+  
+</body>
+
+
+</html>
