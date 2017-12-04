@@ -13,8 +13,9 @@ You may need to use the Rinkeby faucet to get some rinkeby ether.
 Now Metamask will handle all your rinkeby accounts (set up a new account for this) and your web3 instance.
 
 You will also have to run this example in a local webserver (this is a security measure of metamask).
-If you have npm (node packet manager) installed you can do this by typing 'npm install http-server' in your console.
-Then navigate to the folder you would like to serve (where the example is) and type http-server index.html.
+If you have npm (node packet manager) installed you can do install this functionality by typing 'npm install http-server' in your console.
+
+Then navigate to the folder you would like to serve (where the example is) and type 'http-server index.html' .
 
 The console window will provide you with a localhost address from which you can access the page. 
 
