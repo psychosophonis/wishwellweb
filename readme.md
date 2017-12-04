@@ -1,10 +1,11 @@
 ## Wishing Well Web - Metamask Hello World
 
 This example strips out all truffle overhead and simplifies interaction with the Bouncing Wishing Well contract.
-I have used jquery to allow a readable $document.ready function butextensions stripped out any remaining jquery beyond that.
+I have used jquery to allow a readable $document.ready function but stripped out any remaining jquery beyond that.
 
-For this example to work you need to be using the Metamask chrome extension on the Rinkeby test network.
-Go to [the chrome store](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) and follow the install instructions.
+For this example to work you need to be using the Metamask chrome extension (in the chrome browser) on the Rinkeby test network.
+
+While using the chrome browser go to [the chrome store](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) and follow the install instructions.
 
 Click on the metamask icon (the fox) in chrome to set up a wallet and account.
 You may need to use the Rinkeby faucet to get some rinkeby ether.
